@@ -156,4 +156,8 @@ body {
 a{
   text-decoration: none;
   color: var(--text-color);
+  background: var(--primary-color);
+  padding: 5px;
+  border-radius: 10px;
+  bottom: 0px;
 }
