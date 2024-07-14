@@ -79,7 +79,145 @@
   --secondary-color: #d9c6b8;
   --hover-color: #4e3a1f;
 }
+/* Light Blue Theme */
+.light-blue-theme {
+  --primary-color: #87ceeb;
+  --secondary-color: #b0e0e6;
+  --hover-color: #00bfff;
+}
 
+/* Dark Blue Theme */
+.dark-blue-theme {
+  --primary-color: #003366;
+  --secondary-color: #003f5c;
+  --hover-color: #004080;
+}
+
+/* Light Green Theme */
+.light-green-theme {
+  --primary-color: #90ee90;
+  --secondary-color: #e0f7e9;
+  --hover-color: #32cd32;
+}
+
+/* Dark Green Theme */
+.dark-green-theme {
+  --primary-color: #004d00;
+  --secondary-color: #2e8b57;
+  --hover-color: #006400;
+}
+
+/* Light Red Theme */
+.light-red-theme {
+  --primary-color: #f08080;
+  --secondary-color: #f7d1d1;
+  --hover-color: #e57373;
+}
+
+/* Dark Red Theme */
+.dark-red-theme {
+  --primary-color: #8b0000;
+  --secondary-color: #b22222;
+  --hover-color: #a52a2a;
+}
+
+/* Light Purple Theme */
+.light-purple-theme {
+  --primary-color: #d8bfd8;
+  --secondary-color: #f5f0f8;
+  --hover-color: #e6aef4;
+}
+
+/* Dark Purple Theme */
+.dark-purple-theme {
+  --primary-color: #4b0082;
+  --secondary-color: #6a0dad;
+  --hover-color: #5d3a9b;
+}
+
+/* Light Orange Theme */
+.light-orange-theme {
+  --primary-color: #ffcc99;
+  --secondary-color: #ffe5b4;
+  --hover-color: #ffb347;
+}
+
+/* Dark Orange Theme */
+.dark-orange-theme {
+  --primary-color: #ff8c00;
+  --secondary-color: #ff7f50;
+  --hover-color: #ff6f00;
+}
+
+/* Light Teal Theme */
+.light-teal-theme {
+  --primary-color: #afeeee;
+  --secondary-color: #e0f2f1;
+  --hover-color: #00bcd4;
+}
+
+/* Dark Teal Theme */
+.dark-teal-theme {
+  --primary-color: #004d40;
+  --secondary-color: #00695c;
+  --hover-color: #00796b;
+}
+
+/* Light Pink Theme */
+.light-pink-theme {
+  --primary-color: #ffb6c1;
+  --secondary-color: #fce4ec;
+  --hover-color: #ff69b4;
+}
+
+/* Dark Pink Theme */
+.dark-pink-theme {
+  --primary-color: #c71585;
+  --secondary-color: #e91e63;
+  --hover-color: #d81b60;
+}
+
+/* Light Yellow Theme */
+.light-yellow-theme {
+  --primary-color: #ffffe0;
+  --secondary-color: #f7f7e7;
+  --hover-color: #f5f5dc;
+}
+
+/* Dark Yellow Theme */
+.dark-yellow-theme {
+  --primary-color: #ffeb3b;
+  --secondary-color: #fbc02d;
+  --hover-color: #f9a825;
+}
+
+/* Light Indigo Theme */
+.light-indigo-theme {
+  --primary-color: #9fa8da;
+  --secondary-color: #e8eaf6;
+  --hover-color: #7986cb;
+}
+
+/* Dark Indigo Theme */
+.dark-indigo-theme {
+  --primary-color: #3f51b5;
+  --secondary-color: #5c6bc0;
+  --hover-color: #303f9f;
+}
+
+/* Light Brown Theme */
+.light-brown-theme {
+  --primary-color: #a0522d;
+  --secondary-color: #d7c0b0;
+  --hover-color: #8b4513;
+}
+
+/* Dark Brown Theme */
+.dark-brown-theme {
+  --primary-color: #3e2723;
+  --secondary-color: #6d4c41;
+  --hover-color: #4e342e;
+}
 * {
   text-align: center;
   margin-top: 5px;

@@ -38,35 +38,95 @@ document.addEventListener('DOMContentLoaded', function () {
       updateLocalStorage();
       renderTodos();
     }
-    if(todoText === 'Red'){
-      setTheme('red-theme')
+    if (todoText === 'Red') {
+      setTheme('red-theme');
     }
-    if(todoText === 'Green'){
-      setTheme('green-theme')
+    if (todoText === 'Green') {
+      setTheme('green-theme');
     }
-    if(todoText === 'Blue'){
-      setTheme('blue-theme')
+    if (todoText === 'Blue') {
+      setTheme('blue-theme');
     }
-    if(todoText === 'Purple'){
-      setTheme('purple-theme')
+    if (todoText === 'Purple') {
+      setTheme('purple-theme');
     }
-    if(todoText === 'Orange'){
-      setTheme('orange-theme')
+    if (todoText === 'Orange') {
+      setTheme('orange-theme');
     }
-    if(todoText === 'Pink'){
-      setTheme('pink-theme')
+    if (todoText === 'Pink') {
+      setTheme('pink-theme');
     }
-    if(todoText === 'Teal'){
-      setTheme('teal-theme')
+    if (todoText === 'Teal') {
+      setTheme('teal-theme');
     }
-    if(todoText === 'Yellow'){
-      setTheme('yellow-theme')
+    if (todoText === 'Yellow') {
+      setTheme('yellow-theme');
     }
-    if(todoText === 'Indigo'){
-      setTheme('indigo-theme')
+    if (todoText === 'Indigo') {
+      setTheme('indigo-theme');
     }
-    if(todoText === 'Brown'){
-      setTheme('brown-theme')
+    if (todoText === 'Brown') {
+      setTheme('brown-theme');
+    }
+    if (todoText === 'Light Blue') {
+      setTheme('light-blue-theme');
+    }
+    if (todoText === 'Dark Blue') {
+      setTheme('dark-blue-theme');
+    }
+    if (todoText === 'Light Green') {
+      setTheme('light-green-theme');
+    }
+    if (todoText === 'Dark Green') {
+      setTheme('dark-green-theme');
+    }
+    if (todoText === 'Light Red') {
+      setTheme('light-red-theme');
+    }
+    if (todoText === 'Dark Red') {
+      setTheme('dark-red-theme');
+    }
+    if (todoText === 'Light Purple') {
+      setTheme('light-purple-theme');
+    }
+    if (todoText === 'Dark Purple') {
+      setTheme('dark-purple-theme');
+    }
+    if (todoText === 'Light Orange') {
+      setTheme('light-orange-theme');
+    }
+    if (todoText === 'Dark Orange') {
+      setTheme('dark-orange-theme');
+    }
+    if (todoText === 'Light Teal') {
+      setTheme('light-teal-theme');
+    }
+    if (todoText === 'Dark Teal') {
+      setTheme('dark-teal-theme');
+    }
+    if (todoText === 'Light Pink') {
+      setTheme('light-pink-theme');
+    }
+    if (todoText === 'Dark Pink') {
+      setTheme('dark-pink-theme');
+    }
+    if (todoText === 'Light Yellow') {
+      setTheme('light-yellow-theme');
+    }
+    if (todoText === 'Dark Yellow') {
+      setTheme('dark-yellow-theme');
+    }
+    if (todoText === 'Light Indigo') {
+      setTheme('light-indigo-theme');
+    }
+    if (todoText === 'Dark Indigo') {
+      setTheme('dark-indigo-theme');
+    }
+    if (todoText === 'Light Brown') {
+      setTheme('light-brown-theme');
+    }
+    if (todoText === 'Dark Brown') {
+      setTheme('dark-brown-theme');
     }
     
   }
