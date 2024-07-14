@@ -128,6 +128,9 @@ document.addEventListener('DOMContentLoaded', function () {
     if (todoText === 'Dark Brown') {
       setTheme('dark-brown-theme');
     }
+    if(todoText === 'Black'){
+  setTheme('black-theme');
+}
     
   }
 
