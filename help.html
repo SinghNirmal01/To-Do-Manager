@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
+  <title>Help - To-Do Manager</title>
+  <link rel="stylesheet" href="variables.css">
+   <style>
+     /* Help Page Styles */
+     *{
+       
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       
+     }
+     body {
+       font-family: 'Josefin Sans', sans-serif;
+       background-color: var(--secondary-color);
+       color: var(--text-color);
+       margin: 0;
+       padding: 20px;
+       display: flex;
+       
+     }
+     
+     h2 {
+       color: var(--primary-color);
+       text-align: center;
+       margin-bottom: 20px;
+       
+     }
+     
+     p {
+       line-height: 1.6;
+       margin-bottom: 20px;
+     }
+     
+     .theme-instructions {
+       background-color: var(--secondary-color);
+       border:2px solid var(--primary-color);
+       padding: 15px;
+       border-radius: 5px;
+       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       margin-bottom: 20px;
+       display: flex;
+     }
+     
+     h3 {
+       color: var(--primary-color);
+       margin-bottom: 10px;
+     }
+     
+     ul {
+       list-style-type: disc;
+       padding-left: 20px;
+     }
+     
+     button {
+       background-color: var(--primary-color);
+       width:40%;
+       height:10dvh;
+       color: #fff;
+       border: none;
+       padding: 10px 15px;
+       margin: 5px;
+       border-radius: 5px;
+       cursor: pointer;
+       transition: background-color 0.3s ease;
+     }
+     
+     button:active {
+       background-color: var(--hover-color);
+     }
+     
+     button:focus {
+       outline: none;
+     }
+   /*  @media screen and (max-width: 600px) {
+    button{
+        
+    }*/
+}
+   </style>
+</head>
+
+<body>
+  <h2>Help - To-Do Manager</h2>
+  <p>Welcome to the To-Do Manager! Here you can manage your to-dos efficiently with the added feature of changing themes. Simply add a new to-do with a color name to change the theme.</p>
+
+  <div class="theme-instructions">
+    <h3>Changing Themes:</h3>
+    <p>To change the theme, type one of the following color names into the to-do input box and press "ADD":</p>
+    
+      <p>Red</p>
+      <p>Green</p>
+      <p>Blue</p>
+      <p>Purple</p>
+      <p>Orange</p>
+      <p>Pink</p>
+      <p>Teal</p>
+      <p>Yellow</p>
+      <p>Indigo</p>
+      <p>Brown</p>
+      <p>light Blue</p>
+      <p>Dark Blue</p>
+      <p>light Green</p>
+      <p>Dark Green</p>
+      <p>light Red</p>
+      <p>Dark Red</p>
+      <p>light Purple</p>
+      <p>Dark Purple</p>
+      <p>light Orange</p>
+      <p>Dark Orange</p>
+      <p>light Teal</p>
+      <p>Dark Teal</p>
+      <p>light Pink</p>
+      <p>Dark Pink</p>
+      <p>light Yellow</p>
+      <p>Dark Yellow</p>
+      <p>light Indigo</p>
+      <p>Dark Indigo</p>
+      <p>light Brown</p>
+      <p>Dark Brown</p>
+      <p>Black</p>
+    
+    <p>For example, if you type "Red" and press "ADD", the theme will change to Red.</p>
+  </div>
+
+  <div>
+    <h3>Manual Theme Change:</h3>
+    <p>You can also change the theme manually by clicking the buttons below:</p>
+<button onclick="setTheme('red-theme')" class="theme-button">Red Theme</button>
+    <button onclick="setTheme('green-theme')" class="theme-button">Green Theme</button>
+    <button onclick="setTheme('blue-theme')" class="theme-button">Blue Theme</button>
+    <button onclick="setTheme('purple-theme')" class="theme-button">Purple Theme</button>
+    <button onclick="setTheme('orange-theme')" class="theme-button">Orange Theme</button>
+    <button onclick="setTheme('pink-theme')" class="theme-button">Pink Theme</button>
+    <button onclick="setTheme('teal-theme')" class="theme-button">Teal Theme</button>
+    <button onclick="setTheme('yellow-theme')" class="theme-button">Yellow Theme</button>
+    <button onclick="setTheme('indigo-theme')" class="theme-button">Indigo Theme</button>
+    <button onclick="setTheme('brown-theme')" class="theme-button">Brown Theme</button>
+    <button onclick="setTheme('black-theme')" class="theme-button">Black Theme</button>
+    <button onclick="setTheme('light-blue-theme')" class="theme-button">Light Blue Theme</button>
+    <button onclick="setTheme('dark-blue-theme')" class="theme-button">Dark Blue Theme</button>
+    <button onclick="setTheme('light-green-theme')" class="theme-button">Light Green Theme</button>
+    <button onclick="setTheme('dark-green-theme')" class="theme-button">Dark Green Theme</button>
+    <button onclick="setTheme('light-red-theme')" class="theme-button">Light Red Theme</button>
+    <button onclick="setTheme('dark-red-theme')" class="theme-button">Dark Red Theme</button>
+    <button onclick="setTheme('light-purple-theme')" class="theme-button">Light Purple Theme</button>
+    <button onclick="setTheme('dark-purple-theme')" class="theme-button">Dark Purple Theme</button>
+    <button onclick="setTheme('light-orange-theme')" class="theme-button">Light Orange Theme</button>
+    <button onclick="setTheme('dark-orange-theme')" class="theme-button">Dark Orange Theme</button>
+    <button onclick="setTheme('light-teal-theme')" class="theme-button">Light Teal Theme</button>
+    <button onclick="setTheme('dark-teal-theme')" class="theme-button">Dark Teal Theme</button>
+    <button onclick="setTheme('light-pink-theme')" class="theme-button">Light Pink Theme</button>
+    <button onclick="setTheme('dark-pink-theme')" class="theme-button">Dark Pink Theme</button>
+    <button onclick="setTheme('light-yellow-theme')" class="theme-button">Light Yellow Theme</button>
+    <button onclick="setTheme('dark-yellow-theme')" class="theme-button">Dark Yellow Theme</button>
+    <button onclick="setTheme('light-indigo-theme')" class="theme-button">Light Indigo Theme</button>
+    <button onclick="setTheme('dark-indigo-theme')" class="theme-button">Dark Indigo Theme</button>
+    <button onclick="setTheme('light-brown-theme')" class="theme-button">Light Brown Theme</button>
+    <button onclick="setTheme('dark-brown-theme')" class="theme-button">Dark Brown Theme</button>
+    <!-- Add other buttons as needed -->
+  </div>
+
+  <script>
+    // Function to set the theme
+    function setTheme(themeName) {
+      document.body.className = themeName;
+      localStorage.setItem('theme', themeName); // Save the selected theme in localStorage
+    }
+    
+    // Function to load the theme from localStorage
+    function loadTheme() {
+      const savedTheme = localStorage.getItem('theme'); // Get the saved theme from localStorage
+      if (savedTheme) {
+        setTheme(savedTheme); // Apply the saved theme
+      } else {
+        setTheme('default-theme'); // Default theme if no theme is saved
+      }
+    }
+    
+    // Call loadTheme on page load to apply the saved theme
+    loadTheme();
+  </script>
+</body>
+
+</html>

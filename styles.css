@@ -152,3 +152,8 @@ body {
   display: flex;
   gap: 5px;
 }
+
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
