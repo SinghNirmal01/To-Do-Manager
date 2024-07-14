@@ -31,6 +31,54 @@
   --secondary-color: #f8d7da;
   --hover-color: #f5c6cb;
 }
+/* Purple Theme */
+.purple-theme {
+  --primary-color: #6f42c1;
+  --secondary-color: #e5d9f2;
+  --hover-color: #d0a6f0;
+}
+
+/* Orange Theme */
+.orange-theme {
+  --primary-color: #fd7e14;
+  --secondary-color: #ffe5d0;
+  --hover-color: #f5a623;
+}
+
+/* Teal Theme */
+.teal-theme {
+  --primary-color: #20c997;
+  --secondary-color: #d1e7dd;
+  --hover-color: #17a2b8;
+}
+
+/* Pink Theme */
+.pink-theme {
+  --primary-color: #e83e8c;
+  --secondary-color: #f5c6cb;
+  --hover-color: #d63384;
+}
+
+/* Yellow Theme */
+.yellow-theme {
+  --primary-color: #ffc107;
+  --secondary-color: #fff3cd;
+  --hover-color: #e0a800;
+}
+
+/* Indigo Theme */
+.indigo-theme {
+  --primary-color: #6610f2;
+  --secondary-color: #d0bfff;
+  --hover-color: #520dc2;
+}
+
+/* Brown Theme */
+.brown-theme {
+  --primary-color: #6f4f28;
+  --secondary-color: #d9c6b8;
+  --hover-color: #4e3a1f;
+}
 
 * {
   text-align: center;

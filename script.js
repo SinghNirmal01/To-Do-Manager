@@ -38,6 +38,37 @@ document.addEventListener('DOMContentLoaded', function () {
       updateLocalStorage();
       renderTodos();
     }
+    if(todoText === 'Red'){
+      setTheme('red-theme')
+    }
+    if(todoText === 'Green'){
+      setTheme('green-theme')
+    }
+    if(todoText === 'Blue'){
+      setTheme('blue-theme')
+    }
+    if(todoText === 'Purple'){
+      setTheme('purple-theme')
+    }
+    if(todoText === 'Orange'){
+      setTheme('orange-theme')
+    }
+    if(todoText === 'Pink'){
+      setTheme('pink-theme')
+    }
+    if(todoText === 'Teal'){
+      setTheme('teal-theme')
+    }
+    if(todoText === 'Yellow'){
+      setTheme('yellow-theme')
+    }
+    if(todoText === 'Indigo'){
+      setTheme('indigo-theme')
+    }
+    if(todoText === 'Brown'){
+      setTheme('brown-theme')
+    }
+    
   }
 
   function updateTodo(index, newText) {
@@ -99,6 +130,21 @@ document.addEventListener('DOMContentLoaded', function () {
   renderTodos();
 });
 
+// Function to set the theme
 function setTheme(themeName) {
-  document.documentElement.className = themeName;
+  document.body.className = themeName;
+  localStorage.setItem('theme', themeName);  // Save the selected theme in localStorage
 }
+
+// Function to load the theme from localStorage
+function loadTheme() {
+  const savedTheme = localStorage.getItem('theme');  // Get the saved theme from localStorage
+  if (savedTheme) {
+    setTheme(savedTheme);  // Apply the saved theme
+  } else {
+    setTheme('orange-theme');  // Default theme if no theme is saved
+  }
+}
+
+// Call loadTheme on page load to apply the saved theme
+loadTheme();
