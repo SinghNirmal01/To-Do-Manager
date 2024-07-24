@@ -12,9 +12,10 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
+  
+  
 }
 
 #todo {
@@ -24,7 +25,9 @@ body {
   padding: 20px;
   max-width: 600px;
   width: 90%;
-  margin: 0 auto;
+  position: relative;
+  margin: 50px auto 0px auto;
+ 
 }
 
 #todo h2 {
@@ -32,7 +35,13 @@ body {
 }
 
 .project-list {
-  margin-top: 40px;
+  /* margin-top: 40px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  margin-top:100px; */
+  
 }
 
 .project-item {
@@ -153,11 +162,16 @@ body {
   gap: 5px;
 }
 
-a{
+#help{
   text-decoration: none;
   color: var(--text-color);
   background: var(--primary-color);
   padding: 5px;
   border-radius: 10px;
   bottom: 0px;
+}
+
+#ad{
+  position: absolute;
+  bottom:0px;;
 }
